@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background: rgb(34,193,195);
+    background: linear-gradient(60deg, rgba(34,193,195,1) 0%, rgba(250,110,254,1) 100%);
+    color: whitesmoke;
+    font-family:'Amatic SC', cursive;
+    font-size: 36px;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th {
+    background-color: rgb(119, 90, 226);
+    border: 1px solid #ddd;
+}
+table{
+    width: 1000px;
+    border-collapse: collapse;
+    text-align: center;
+}
+table td,table th {
+    padding: 10px;
+}
+table td{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+table td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.301);
+}
